@@ -66,7 +66,6 @@ With most requests (like pressing a button), this whole Data DOM will be sent as
 Not ALL data in the Data DOM will make sense for an endpoint to receive, and not all data sent from the results of an endpoint will make sense to display. However, for the sake of simplicity we transmit and receive all of it. Naturally, it will be possible to restrict / reformat this data should a use case be required.
 
 # Ingredients
-//Cat: Add screenshot to each Ingredient to show what it would result in.
 
 Here is a list of all possible Ingredients. There's plenty of samples to get you started too!
 
@@ -97,9 +96,6 @@ Here are the attributes usable on the Ingredient:
 
 ## actions
 The actions Ingredient is used as a group for all `<actions>`. When a new action is performed from the group, the results page will reset and the new action will be used.
-
-
-//Cat: maybe we should call "action" "button" instead.. otherwise this might be confusing. dont you think?
 
 ### Examples
 This action opens the page search_display passing the current Data DOM to the endpoint, and populating the new page Data DOM with the results.
@@ -247,8 +243,6 @@ Here are the attributes usable on the Ingredient:
 
 ## iconaction
 This Ingredient is an action. Instead of a button, it will display a font-awesome icon. One can use any name from the free font-awesome [icon set](https://fontawesome.com/) in the project. This is normally used to represent actions for rows on a table.
-
-//Cat: pro feature: more icons?? ;)
 
 ### Examples
 
